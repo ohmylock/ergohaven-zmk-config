@@ -17,9 +17,14 @@
     combos {
         compatible = "zmk,combos";
 
-        sk {
+        left_brace {
             bindings = <&kp LPAR>;
-            key-positions = <13 14>;
+            key-positions = <25 26>;
+        };
+
+        right_brace {
+            bindings = <&kp RPAR>;
+            key-positions = <26 27>;
         };
     };
 
